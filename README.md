@@ -11,7 +11,7 @@ COBS student at Thapar Institute of Engineering and Technology. My projects span
 ### [Remnant X](https://github.com/nikunjtrehan/remnant-x)
 **Photographed offcuts → reviewed geometry → cutting plans**
 
-Built for the Meta AI hackathon. Combines Meta SAM perception, model-assisted order interpretation, and deterministic geometry to plan parts across sheet remnants while preserving existing holes.
+Solo project built for the Meta AI hackathon. Combines Meta SAM perception, model-assisted order interpretation, and deterministic geometry to plan parts across sheet remnants while preserving existing holes.
 
 - **Engineering:** calibrated photo intake, hole-aware multi-sheet nesting, independent G-code checks, and operator-confirmed inventory updates.
 - **Evidence:** a recorded demonstration plans ten custom parts across two photographed metal remnants. Physical experiments and their measurement limits are documented separately.
@@ -24,7 +24,7 @@ Built for the Meta AI hackathon. Combines Meta SAM perception, model-assisted or
 ### [RecoverAI](https://github.com/nikunjtrehan/recover-ai)
 **Payment-failure recovery with bounded actions and an audit trail**
 
-Built for the Razorpay AI Buildathon's Revenue Recovery track. Classifies payment failures, selects recovery actions, and generates English, Hindi, and Hinglish messages. The default decision path uses rules; an optional offline AI script generates a message template from audit summaries.
+Solo project built for the Razorpay AI Buildathon's Revenue Recovery track. Classifies payment failures, selects recovery actions, and generates English, Hindi, and Hinglish messages. The default decision path uses rules; an optional offline AI script generates a message template from audit summaries.
 
 - **Engineering:** allowed-action checks, suspicious-payment escalation, mock payment integration, and SQLite decision records.
 - **Evidence:** tests cover routing, guardrails, messaging, audit records, and mock recovery flows. The evaluation script explicitly simulates recovery outcomes.
@@ -39,7 +39,7 @@ Built for the Razorpay AI Buildathon's Revenue Recovery track. Classifies paymen
 
 A team project extending MIT's xv6 with lazy allocation, copy-on-write fork, paging policies, kernel threads, futex synchronization, tracing, signals, and an in-guest debugger.
 
-- **My contribution record:** [merged integration PR](https://github.com/AkshitMishra1107/os_project_xv6_plus/pull/2) connecting tracing, signals, and debugging with the integrated kernel, plus regression checks and project documentation.
+- **My contribution:** syscall tracing, user signal handlers, kernel debugging primitives, and an interactive debugger with ELF symbols, breakpoints, and backtraces; integration tests and documentation connecting this work to the team's memory and threading implementation. [Merged contribution](https://github.com/AkshitMishra1107/os_project_xv6_plus/pull/2).
 - **Evidence:** published full regression results and controlled comparisons of paging policies, COW tradeoffs, and equal-work parallel execution, with source checkpoints and raw captures.
 - **Scope:** paging is validated on one CPU; the three-CPU configuration disables eviction. Results describe the documented QEMU configurations.
 
